@@ -1,0 +1,30 @@
+.Aime {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+
+  .btn-aime {
+    background-color: rgba(0, 0, 0, 0.482);
+    border: none;
+    padding: 10px;
+    background-color: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .coeur {
+      color: gray;
+      transition: color .5s ease;
+    }
+
+    .coeur-clic {
+      color: rgb(255, 0, 0);
+    }
+    
+    .compte {
+      color: white;
+      padding-left: 5px;
+    }
+  }
+  
+}

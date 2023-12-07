@@ -1,0 +1,23 @@
+.ControleJour {
+  background-color: #00000079;
+  border: 1px solid rgba(0, 0, 0, 0.641);
+  position: absolute;
+  bottom: 22%;
+  left: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  transform-origin: center;
+  transform: translate(-50%,-50%);
+
+  @media screen and (min-width: 800px) {
+    bottom: 15%;
+  }
+
+  button {
+    margin: 5px;
+    padding: 2px;
+    border: none;
+  }
+
+}

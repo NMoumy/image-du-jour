@@ -1,0 +1,24 @@
+.Appli {
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  position: relative;
+  height: 100vh;
+  // overflow: hidden;
+  // scroll-behavior: auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+                      "entete"
+                      "image"
+                      "listeCommentaires";
+
+  @media screen and (min-width: 800px) {
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 14fr;
+    grid-template-areas: 
+                        "entete entete"
+                        "image listeCommentaires";
+  }
+  button {
+    cursor: pointer;
+  }
+}

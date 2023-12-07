@@ -1,0 +1,63 @@
+.Commentaire {
+  position: relative;
+  background-color: rgb(248, 247, 247);;
+  padding: 0 5px 5px 5px;
+  border: 1px solid rgb(233, 233, 233);
+  margin-top: 10px;
+  border-radius: 5px;
+
+  button {
+    background-color: none;
+  }
+
+  .supprimer {
+    border: 1px solid rgb(215, 215, 215);
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 3px;
+    transition: 1s background-color ease;
+
+    .icon-suppr{
+      color: rgb(19, 19, 19);
+      transition: 1s color ease;
+    }
+
+  }
+  .supprimer:hover {
+    background-color: rgb(251, 251, 251);
+
+    .icon-suppr{
+      color: rgb(255, 0, 0);
+    }
+
+  }
+
+  .votes {
+    display: flex;
+    gap: 10px;
+
+    .vote-neg, .vote-pos {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: transparent;
+      border: none;
+
+      .icon-vote {
+        color: rgb(97, 97, 97);
+        margin-right: 3px;
+      }
+      .choix-vote-n {
+        color: rgb(143, 64, 64);
+      }
+      .choix-vote-p {
+        color: rgb(64, 98, 143);
+      }
+
+    }
+
+  }
+
+}
