@@ -2,7 +2,7 @@
 
 ## Description du Projet
 
->Bienvenue dans le projet "Image du jour" ! Ce projet a été réalisé dans le cadre du cours 5pa, où l'objectif était d'intégrer une base de données Firebase. L'application permet à l'utilisateur de visualiser des images du jour, tout en offrant des fonctionnalités telles que la gestion des likes, des commentaires, et la possibilité d'apprécier une image grâce aux flèches de contrôle.
+>Bienvenue dans le projet "Image du jour" ! Ce projet a été réalisé dans le cadre du cours 'Interfaces Web réactives et animées', où l'objectif était d'intégrer une base de données Firebase. L'application permet à l'utilisateur de visualiser des images du jour, tout en offrant des fonctionnalités telles que la gestion des likes, des commentaires, et la possibilité d'apprécier une image grâce aux flèches de contrôle.
 
 ## Technologies Utilisées
 
